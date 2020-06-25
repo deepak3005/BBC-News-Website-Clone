@@ -13,13 +13,252 @@
             #topbar{
                 width: 1000px;
                 margin: 0 auto;
-                background-color: red;
                 height: 40px;
             }
 
             body{
                 margin: 0;
                 padding: 0;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            #logo{
+                margin-top: 8px;
+                width: 90px;
+                float: left;
+                margin-right: 8px;
+            }
+
+            .topbar-section{
+                float: left;
+                border-left: 1px #CCCCCC solid;
+                height: 100%;
+            }
+
+            #sign-in-image{
+                width: 25px;
+                margin: 11px 15px;
+                float: left;
+            }
+
+            #sign-in-text{
+                font-weight: bold;
+                font-size: 90%;
+                position: relative;
+                top: 14px;
+                padding-right: 50px;
+            }
+
+            #wigglyline{
+                float: left;
+                height: 40px;
+            }
+
+            #bell{
+                height: 25px;
+                margin-top: 9px;
+                margin-left: 4px;
+                margin-right: 8px;
+            }
+
+            #bell-div{
+                float: left;
+            }
+
+            .topbar-menu{
+                font-weight: bold;
+                font-size: 90%;
+                padding: 13px 15px 0px 15px;
+                height: 27px;
+            }
+
+            #more-arrow{
+                width: 11px;
+                margin-left: 15px;
+
+            }
+
+            #search-box{
+                background-color: #E4E4E4;
+                font-weight: bold;
+                font-size: 14px;
+                padding: 5px;
+                margin: 8px 0px 5px;
+                float: left;
+                border: none;
+                margin-left: 10px;
+            }
+
+            #search-icon{
+                width: 25px;
+                margin-top: 8px;
+            }
+
+            .clear{
+                clear: both;
+            }
+
+            #menu-bar-container{
+                background-color: #BB1919;
+                width: 100%;
+                height: 70px;
+            }
+
+            #menu-bar{
+                width: 1000px;
+                margin: 0 auto;
+                position: relative;
+                left: -14px;
+            }
+
+            h1{
+                padding: 0;
+                margin: 0;
+                color: white;
+                font-size: 40px;
+                font-weight: normal;
+                padding: 12px;
+                float: left;
+            }
+
+            #local-news{
+                
+                border: 1px rgb(238, 148, 148) solid;
+                float: right;
+                width: 180px;
+                padding: 5px 5px 0 5px;
+                margin: 20px 10px 0 0;
+                position: relative;
+                right: -3px;
+            }
+
+            #local-news a {
+                color: white;
+                text-decoration: none;
+                font-size: 20px;
+                position: relative;
+                top: -1px;
+                margin-left: 9px;
+            }
+
+            #local-news a:hover {
+                text-decoration: underline;
+            }
+
+            #location-icon{
+                width: 13px;
+                position: relative;
+                top: 1px;
+                margin-left: 4px;
+            }
+
+            #menu-bar-2-container{
+                background-color: #A91717;
+                width: 100%;
+            }
+
+            #menu-bar-2{
+                width: 1000px;
+                margin: 0 auto;
+                height: 40px;
+                position: relative;
+                left: -6px;
+            }
+
+            #menu-bar-2 a {
+                color: white;
+                text-decoration: none;
+                padding: 0 10px;
+                font-size: 15px;
+                position: relative;
+                top: 7px;
+                border-right: 1px solid #BB4545;
+            }
+
+            #menu-bar-2 a:hover {
+                text-decoration: underline;
+            }
+
+            .no-border{
+                border: none !important;
+            }
+
+            #arrowdown{
+                position: relative;
+                top: 11px;
+                margin-left: -11px;
+            }
+
+            #page-container{
+                width: 1000px;
+                margin: 0 auto;
+
+            }
+
+            #main-article{
+
+            }
+
+            h2{
+                font-weight: normal;
+                margin-top: 50px;
+                font-size: 20px;
+                width: 103px;
+                border-bottom: 2px solid #a91717;
+            }
+
+            h3 a {
+                color: black;
+                font-size: 30px;
+                text-decoration: none;
+            }
+
+            h3 a:hover {
+                color: #1167a8;
+            }
+
+            #article-summary{
+                color: #5a5a5a;
+                width: 250px;
+                float: left;
+            }
+
+            #timer{
+                width: 13px;
+                position: relative;
+                top: 1px;
+            }
+
+            #topic-link {
+                text-decoration: none;
+                color: #a91717;
+            }
+
+            #article-summary a:hover {
+                color: #1167a8;
+            }
+
+            #article-container{
+                float: left;
+                width: 670px;
+                border-right: 1px solid #CCCCCC;
+                padding-right: 10px;
+            }
+
+            #main-article-image{
+                width: 400px;
+                margin-left: 10px;
+            }
+
+            #article-hr{
+                border-top:1px solid #a91717;
+                width:50px;
+                margin-left: 0px;
+            }
+
+            .article-link{
+                color: black;
+                text-decoration: none;
             }
 
         </style>
@@ -29,6 +268,138 @@
     <body>
 
         <div id="topbar">
+
+            <img id="logo" src="C:\Users\HP\Desktop\Complete web developer course html files\BBC clone\Images\BBC-logo.png">
+
+            <div id="sign-in-div" class="topbar-section">
+
+                <img id="sign-in-image" src="C:\Users\HP\Desktop\Complete web developer course html files\BBC clone\Images\sign-in-logo.png">
+
+                <span id="sign-in-text">Sign in</span>
+            </div>
+
+            <div id="bell-div">
+
+                <img id="wigglyline" src="C:\Users\HP\Desktop\Complete web developer course html files\BBC clone\Images\wigglyline.PNG">
+                <img id="bell" src="C:\Users\HP\Desktop\Complete web developer course html files\BBC clone\Images\bell-icon.PNG">
+            </div>
+
+            <div class="topbar-section topbar-menu">
+
+                News
+
+            </div>
+
+            <div class="topbar-section topbar-menu">
+
+                Sport
+
+            </div>
+
+            <div class="topbar-section topbar-menu">
+
+                Weather
+
+            </div>
+
+            <div class="topbar-section topbar-menu">
+
+                iPlayer
+
+            </div>
+
+            <div class="topbar-section topbar-menu">
+
+                TV
+
+            </div>
+
+            <div class="topbar-section topbar-menu">
+
+                More
+                <img id="more-arrow" src="C:\Users\HP\Desktop\Complete web developer course html files\BBC clone\Images\dropdown icon.PNG">
+
+            </div>
+
+            <div class="topbar-section">
+
+                <input id="search-box" type="text" placeholder="Search">
+                <input type="image" id="search-icon" src="C:\Users\HP\Desktop\Complete web developer course html files\BBC clone\Images\search icon.PNG">
+
+            </div>
+
+        </div>
+
+        <div class="clear"></div>
+
+        <div id="menu-bar-container">
+
+            <div id="menu-bar">
+
+                <h1>NEWS</h1>
+
+                <div id="local-news">
+
+                    <a href="">Find local news</a>
+                    <img id="location-icon" src="C:\Users\HP\Desktop\Complete web developer course html files\BBC clone\Images\location-icon.PNG">
+
+                </div>
+
+            </div>
+
+            <div class="clear"></div>
+
+            <div id="menu-bar-2-container">
+
+                <div id="menu-bar-2">
+
+                    <a href="">Home</a>
+                    <a href="">UK</a>
+                    <a href="">World</a>
+                    <a href="">Business</a>
+                    <a href="">Politics</a>
+                    <a href="">Tech</a>
+                    <a href="">Science</a>
+                    <a href="">Health</a>
+                    <a href="">Education</a>
+                    <a href="">Entertainment & Arts</a>
+                    <a href="">Video & Audio</a>
+                    <a href="" class="no-border">More</a>
+                    <img id="arrowdown" src="C:\Users\HP\Desktop\Complete web developer course html files\BBC clone\Images\arrowdown.PNG">
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="clear"></div>
+
+        <div id="page-container">
+
+            <div id="main-article">
+
+                <h2>Technology</h2>
+
+                <div id="article-container">
+
+                    <h3><a href="">Asda bug exposed payment details</a></h3>
+
+                    <div id="article-summary">
+
+                        <p>Security vulnerabilities that put customers at risk have affected Asda's website for a couple of years, a security expert has revealed.</p>
+                        <p><img id="timer" src="C:\Users\HP\Desktop\Complete web developer course html files\BBC clone\Images\timer-icon.PNG"> 19 January 2016 | <a href="" id="topic-link">Technology</a></p>
+                        <hr id="article-hr">
+                        <p><a href="" class="article-link">Surveillance firm hit in hack attack</a></p>
+                        <p><a href="" class="article-link">eBay flaw has existed for months</a></p>
+
+                    </div>
+
+                    <img id="main-article-image" src="C:\Users\HP\Desktop\Complete web developer course html files\BBC clone\Images\ASDA-image.PNG">
+
+                </div>
+
+            </div>
 
         </div>
 
